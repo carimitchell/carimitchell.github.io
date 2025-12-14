@@ -8,6 +8,12 @@ h2 {
   font-family: "Open sans", sans-serif;
   font-size: 150%;
 }
+h3 {
+  color: #2f3d5f;
+  font-family: "Open sans", sans-serif;
+  font-style: italic;
+  font-size: 125%;
+}
 p {
   color: #2f3d5f;
   font-family: "Open sans", sans-serif;
