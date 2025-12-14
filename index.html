@@ -2,28 +2,51 @@
 <html>
 
     <head>
-        <title>Assignment 7 Plots</title>
+        <title>Climate Change</title>
+        <link rel="stylesheet" href="styles.css">
         <style>
             html,
-            body {
+            body{
+                background-color: white;
                 height: 100%;
             }
-
-            iframe {
-                width: 100%;
-                height: 100%;
-                border: none;
+            a:link, a:visited {
+                background-color: #1e425e;
+                color: white;
+                padding: 14px 25px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-family: "Open sans", sans-serif;
+            }
+            a:hover, a:active {
+                background-color: #3c7cbe;
+                font-family: "Open sans", sans-serif;
             }
         </style>
     </head>
 
     <body>
-        <h2>Canada's Population is Majority Non Indigenous</h2>
-        <iframe src="donut.html" title="Donut Chart of"></iframe>
-        <h2>Canada's Northern Territories have Larger Indigenous Proportions than the Southern Provinces</h2>
-        <iframe src="map1.html" title="Choropleth"></iframe>
-        <h2>Indigenous Populations have Higher Crude Rates of Fair/Poor Mental Health and Moderate/Severe Food Insecurity</h2>
-        <iframe src="scatter.html" title="Scatter Plot"></iframe>
+        <h1>
+        Explore the Implications of Climate Change
+        </h1>
+        <h2> About our Project </h2>
+        <p>
+            This project examines the impact of climate change on the United States within a global framework, examining how American climate policy fails to align with the data. The United States has resisted many international climate agreements, positioning itself at odds with the global movement toward cooperative action. Examples of Kyoto Protocol and Paris Climate Agreement. Despite this, the nation faces significant environmental, social, and economic consequences from the impact of climate change.
+        </p>
+        <h2>Key Questions</h2>
+        <ul>
+            <li>What is the impact of climate change on the landscape?</li>
+            <li>What is the economic impact of climate change?</li>
+            <li>How many people have been displaced by climate change?</li>
+        </ul>
+
+        <h2> Data Sources </h2>
+        <p>
+            Global climate data was sourced from EM-DAT, a public international disaster database. We created subsets to better examine trends in the type of disaster that occurred, the country of origin and the amount of individuals impacted. Average temperature and public disaster data for the United States was sourced from the National Oceanic and Atmospheric Administration. We subsetted their datasets to find statewide average monthly temperature for July in 1984 and 2024 as well as the count and cost of billion dollar weather events.
+        </p>
+
+        <a href="section_one.html">Click to Start Exploring</a>
     </body>
 
 </html>
