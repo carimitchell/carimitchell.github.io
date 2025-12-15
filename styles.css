@@ -14,7 +14,7 @@ h3 {
   font-style: italic;
   font-size: 125%;
 }
-p {
+p, ul, ol {
   color: #2f3d5f;
   font-family: "Open sans", sans-serif;
   font-size: 100%;
@@ -28,13 +28,9 @@ iframe {
     height: 100%;
     border: none;
 }
-ul{
-    color: #2f3d5f;
-    font-family: "Open sans", sans-serif;
-    font-size: 100%;
-}
 a {
   color: #3c7cbe;
+  font-family: "Open sans", sans-serif;
 }
 
 .button-link {
